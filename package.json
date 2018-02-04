@@ -1,0 +1,19 @@
+{
+  "name": "yaml-js-loader",
+  "version": "0.0.1",
+  "description": "A YAML file loader for webpack",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "yaml",
+    "loader",
+    "webpack",
+    "yaml-loader",
+    "yaml-js-loader",
+    "js"
+  ],
+  "author": "Inumidun Amao",
+  "license": "ISC"
+}
