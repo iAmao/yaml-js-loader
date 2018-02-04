@@ -1,5 +1,5 @@
 ## yaml-js-loader
-[![Build Status](https://travis-ci.org/iAmao/yaml-js-loader.svg?branch=master)](https://travis-ci.org/iAmao/yaml-js-loader) 
+[![Build Status](https://travis-ci.org/iAmao/yaml-js-loader.svg?branch=master)](https://travis-ci.org/iAmao/yaml-js-loader) [![codecov](https://codecov.io/gh/iAmao/yaml-js-loader/branch/master/graph/badge.svg)](https://codecov.io/gh/iAmao/yaml-js-loader)
 
 Tells webpack how to load YAML files.
 
@@ -79,9 +79,9 @@ Using with file loader provides a live URL to where the YAML file is served.
 The file can be accessed by visiting `[base_url][webpack_public_path][url]` for example,
 
 if,
-base_url = http://localhost:3005
-webpack_public_path = /public
-url = /static/config.d23e812af.yml
+- base_url = http://localhost:3005
+- webpack_public_path = /public
+- url = /static/config.d23e812af.yml
 
 then,
 to access the file in the browser, you would need to visit: `http://localhost:3005/public/static/config.d23e812af.yml`
