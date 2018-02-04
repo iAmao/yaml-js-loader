@@ -48,7 +48,8 @@
     "coverageDirectory": "coverage",
     "coveragePathIgnorePatterns": [
       "/node_modules/",
-      "<rootDir>/lib/"
+      "<rootDir>/lib/",
+      "<rootDir>/scripts/"
     ],
     "testMatch": [
       "<rootDir>/__tests__/*.spec.js"

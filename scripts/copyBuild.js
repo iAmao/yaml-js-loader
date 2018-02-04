@@ -7,12 +7,15 @@ const files = {
     'LICENSE': ''
 };
 
-Promise.all(Object.keys(files).map((file) => copyFile(file, files[file])))
-    .then(() => createPackageFile());
+Promise.all(
+    Object.keys(files)
+        .map((file) => copyFile(file, files[file]))
+)
+.then(() => createPackageFile());
 
 
 function copyFile(file, filePath) {
-    return new Promise(function (resolve) {
+    return new Promise((resolve) => {
         console.log(`copying ${file} to ${path.resolve(__dirname, '../lib', filePath)}`)
         return fs.copy(
             file,
@@ -22,10 +25,8 @@ function copyFile(file, filePath) {
                 filePath,
                 path.basename(file)
             ),
-            function(error, data) {
-                if (error) {
-                    throw new Error (`error copying file ${file}`, error);
-                }
+            (error, data) => {
+                if (error) throw new Error (`error copying file ${file}`, error);
                 return resolve(data);
             }
         );
@@ -34,13 +35,11 @@ function copyFile(file, filePath) {
 
 
 function createPackageFile() {
-    return new Promise(function(resolve) {
-        fs.readFile(path.resolve(__dirname, '../package.json'), 'utf-8', function(err, data) {
-            if (err) {
-                throw err;
-            }
+    return new Promise((resolve) => {
+        fs.readFile(path.resolve(__dirname, '../package.json'), 'utf-8', (err, data) => {
+            if (err) throw err;
             return resolve(data);
-        })
+        });
     })
     .then((data) => JSON.parse(data))
     .then((packageData) => {
@@ -72,7 +71,7 @@ function createPackageFile() {
         }
         return new Promise((resolve) => {
             const data = JSON.stringify(minPackage);
-            fs.writeFile(path.resolve(__dirname, '../lib/package.json'), data, function(error) {
+            fs.writeFile(path.resolve(__dirname, '../lib/package.json'), data, (error) => {
                 if (error) throw error;
                 return resolve();
             });
