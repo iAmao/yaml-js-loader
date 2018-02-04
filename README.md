@@ -53,7 +53,7 @@ console.log(config);
 //      "Bakugo"
 //    ]
 // .},
-//  string:"name: Izuku Midoriya\nquirk: One for all\nfriends:\n - Todoroki\n - Lida\n - Ochacho\n - Bakugo"\n
+//  text:"name: Izuku Midoriya\nquirk: One for all\nfriends:\n - Todoroki\n - Lida\n - Ochacho\n - Bakugo"\n
 //}
 ```
 
@@ -119,7 +119,7 @@ console.log(config);
 //      "Bakugo"
 //    ]
 // .},
-//  string:"name: Izuku Midoriya\nquirk: One for all\nfriends:\n - Todoroki\n - Lida\n - Ochacho\n - Bakugo"\n
+//  text:"name: Izuku Midoriya\nquirk: One for all\nfriends:\n - Todoroki\n - Lida\n - Ochacho\n - Bakugo"\n
 //}
 ```
 

@@ -4,7 +4,7 @@
   "description": "A YAML file loader for webpack",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [
     "yaml",
@@ -27,6 +27,24 @@
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-config-webpack": "^1.2.5",
     "eslint-plugin-import": "^2.8.0",
-    "jest": "^22.1.4"
+    "file-loader": "^1.1.6",
+    "jest": "^22.1.4",
+    "memory-fs": "^0.4.1",
+    "webpack": "^3.10.0"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,mjs}"
+    ],
+    "coverageDirectory": "coverage",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "<rootDir>/lib/"
+    ],
+    "testMatch": [
+      "<rootDir>/__tests__/*.spec.js"
+    ],
+    "testEnvironment": "node"
   }
 }

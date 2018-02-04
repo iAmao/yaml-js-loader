@@ -1,0 +1,1 @@
+module.exports = {"url":"","text":"name: Izuku Midoriya\nquirk: One for all\nfriends:\n - Todoroki\n - Lida\n - Ochacho\n - Bakugo\n ","json":{"name":"Izuku Midoriya","quirk":"One for all","friends":["Todoroki","Lida","Ochacho","Bakugo"]}}
