@@ -1,9 +1,10 @@
 ## yaml-js-loader
----
+[![Build Status](https://travis-ci.org/iAmao/yaml-js-loader.svg?branch=master)](https://travis-ci.org/iAmao/yaml-js-loader) 
 
 Tells webpack how to load YAML files.
 
 ---
+
 
 #### Installation
 

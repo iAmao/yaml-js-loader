@@ -4,7 +4,7 @@
   "description": "A YAML file loader for webpack",
   "main": "lib/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest && codecov"
   },
   "keywords": [
     "yaml",
@@ -23,6 +23,7 @@
     "babel-eslint": "^8.2.1",
     "babel-jest": "^22.1.0",
     "babel-preset-env": "^1.6.1",
+    "codecov": "^3.0.0",
     "eslint": "^4.17.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-config-webpack": "^1.2.5",
