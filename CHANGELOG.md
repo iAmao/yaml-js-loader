@@ -1,4 +1,4 @@
-### [v0.1.0](https://github.com/iAmao/yaml-js-loader)(04-02-2018)
+### [v0.1.0](https://github.com/iAmao/yaml-js-loader) (04-02-2018)
 ---
 
 #### Features

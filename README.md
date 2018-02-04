@@ -59,7 +59,7 @@ console.log(config);
 //}
 ```
 
-Add the following conifguration to webpack config file.
+Add the following configuration to webpack config file.
 
 ###### webpack.config.js
 ```
@@ -125,7 +125,7 @@ console.log(config);
 //}
 ```
 
-Add the following conifguration to webpack config file.
+Add the following configuration to webpack config file.
 
 ###### webpack.config.js
 ```
