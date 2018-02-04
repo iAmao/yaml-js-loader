@@ -1,5 +1,5 @@
 ## yaml-js-loader
-[![Build Status](https://travis-ci.org/iAmao/yaml-js-loader.svg?branch=master)](https://travis-ci.org/iAmao/yaml-js-loader) [![codecov](https://codecov.io/gh/iAmao/yaml-js-loader/branch/master/graph/badge.svg)](https://codecov.io/gh/iAmao/yaml-js-loader) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/iAmao/yaml-js-loader/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/iAmao/yaml-js-loader/?branch=master)
+[![npm version](https://badge.fury.io/js/yaml-js-loader.svg)](https://badge.fury.io/js/yaml-js-loader) [![Build Status](https://travis-ci.org/iAmao/yaml-js-loader.svg?branch=master)](https://travis-ci.org/iAmao/yaml-js-loader) [![codecov](https://codecov.io/gh/iAmao/yaml-js-loader/branch/master/graph/badge.svg)](https://codecov.io/gh/iAmao/yaml-js-loader) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/iAmao/yaml-js-loader/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/iAmao/yaml-js-loader/?branch=master)
 
 
 Tells webpack how to load YAML files.
